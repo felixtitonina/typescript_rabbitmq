@@ -1,0 +1,24 @@
+#####
+POST http://localhost:3000/pedidos
+Content-Type: application/json
+
+{
+    "message": "Hello 1"
+}
+
+
+
+#####
+POST http://localhost:3000/pedidos
+Content-Type: application/json
+
+{
+    "numero": 1,
+    "cnpj": "00394460005887",
+    "status": true,
+    "items": [{
+        "nome": "item 001",
+        "qtd": 2
+    }
+    ]
+}
