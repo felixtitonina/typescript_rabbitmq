@@ -13,10 +13,10 @@ POST http://localhost:3000/pedidos
 Content-Type: application/json
 
 {
-    "numero": 1,
+    "numero": 4,
     "cnpj": "00394460005887",
     "status": true,
-    "items": [{
+    "itens": [{
         "nome": "item 001",
         "qtd": 2
     }
